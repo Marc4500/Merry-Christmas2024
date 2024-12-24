@@ -25,6 +25,7 @@ window.onload = function() {
         overlay.style.display = 'none';
     });
 
+    
     // Gestion du bouton "Non"
     noButton.addEventListener('click', () => {
         console.log("Vous avez choisi de ne pas lancer la musique.");
