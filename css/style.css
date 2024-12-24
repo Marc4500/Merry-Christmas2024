@@ -111,7 +111,8 @@ p{
 }
 
 
-@media screen and (max-width :520px) {
+
+/* @media screen and (max-width :520px) {
     .index{
         font-size: 3rem
     }
@@ -197,4 +198,4 @@ p{
         transform: rotate(45deg);
         box-shadow: -10px 10px 90px #f20044;
     }
-}
+} */
