@@ -176,7 +176,23 @@ img {
   }
   
 }
-
+@media ( min-width:1281px) and (max-width:1920px) {
+  .text{
+    font-size: 5rem;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  @keyframes spirlalGrow {
+    0%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(3);
+    }
+  }
+  
+}
 
 
 
@@ -199,8 +215,9 @@ img {
 #popup button{
   margin-inline: 1rem;
   padding: .5rem;
-  background-color: #eedada;
+  background-color: #ff9393;
   border-radius: 10px;
+  color: aliceblue;
 }
 #popup button:hover{
   background-color: #c4c4c4;
